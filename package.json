@@ -1,0 +1,27 @@
+{
+  "name": "node-sync-logs",
+  "version": "0.0.1",
+  "description": "Rsync and concatenate files for a few select Cblt/CDK applications.",
+  "bin": {
+    "syncLogs": "./bin/syncLogs.js"
+  },
+  "main": "lib/syncMaster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cptavatar/node-sync-logs"
+  },
+  "author": "Alex Rose <alex@-insert my name-.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cptavatar/node-sync-logs/issues"
+  },
+  "homepage": "https://github.com/cptavatar/node-sync-logs",
+  "dependencies": {
+    "rsync": "0.4.x"
+  },
+  "devDependencies": {
+  }
+}
