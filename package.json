@@ -1,13 +1,13 @@
 {
   "name": "node-sync-logs",
   "version": "0.0.1",
-  "description": "Rsync and concatenate files for a few select Cblt/CDK applications.",
+  "description": "Rsync and concatenate files for a few select applications I work with. Probably not of use for you.",
   "bin": {
     "syncLogs": "./bin/syncLogs.js"
   },
   "main": "lib/syncMaster.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,11 @@
   },
   "homepage": "https://github.com/cptavatar/node-sync-logs",
   "dependencies": {
-    "rsync": "0.4.x"
+    "rsync": "0.4.0",
+    "minimist": "1.1.1"
   },
   "devDependencies": {
+    "mocha": "2.2.x",
+    "chai": "3.2.x"
   }
 }
