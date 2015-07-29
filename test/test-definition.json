@@ -1,12 +1,21 @@
 {
-  "envs": {
-    "prod": {
-      "server": "my.log.server",
+  "envs": [
+    {
+      "env": "prod",
+      "server": "my.prod.server",
+      "paths": [
+        "/app/path/one",
+        "app/path/two"
+      ]
+    },
+    {
+      "env": "pre-prod",
+      "server": "my.preprod.server",
       "paths": [
         "/app/path/one",
         "app/path/two"
       ]
     }
-  },
+  ],
   "logs":["foo.log", "bar.log"]
 }

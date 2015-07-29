@@ -4,6 +4,6 @@
   Script to pull down log files and rsync them to
 
  */
-var master = require('node-sync-logs');
+var master = require('../lib/syncMaster');
 
-master.syncLogFiles(argv.e);
+master.syncLogFiles(process.argv);
