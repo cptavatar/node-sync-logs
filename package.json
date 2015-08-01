@@ -22,7 +22,8 @@
   "dependencies": {
     "rsync": "0.4.0",
     "minimist": "1.1.1",
-    "expand-home-dir": "0.0.2"
+    "expand-home-dir": "0.0.2",
+    "findit": "2.0.0"
   },
   "devDependencies": {
     "mocha": "2.2.x",
