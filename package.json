@@ -21,7 +21,6 @@
   "homepage": "https://github.com/cptavatar/node-sync-logs",
   "dependencies": {
     "colors": "1.1.2",
-    "log": "1.4.0",
     "rsync": "0.4.0",
     "minimist": "1.1.1",
     "expand-home-dir": "0.0.2",
